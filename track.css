@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monstserrat", sans-serif;
+  }
+  
+  body {
+    background: white;
+  }
+  
+  .Wrapper {
+      margin-left: 30%;
+      width: 50%;
+      background-repeat: no-repeat;
+      height: auto;
+      background-image: url("Background.jpg");
+      background-size: 630px 300vh;
+      opacity: 8.8;
+      margin-top: 3%;
+  }
+  
+  img {
+    width: 98.5%;
+  }
+  
+  #form {
+    max-width: 700px;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 4%;
+    text-align: center;
+    position: relative;
+    background: white; 
+    color: #4d5156;
+  
+  }
+  .content {
+    padding-top: 3%;
+    text-align: left;
+    margin-left: 8%;
+    line-height: 1.5rem;
+  }
+  
+  h2{
+    padding-top: 4%;
+    color: black;
+
+  }
+  #button {
+    background-color: #006400;
+    border: none;
+    color: white;
+    padding: 1px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    margin-top: 5%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  .Leftcontainer {
+    line-height: 2rem;
+    text-align: left;
+    margin-left: 20%;
+  }
+  .Rightcontainer {
+    margin-left: 30%;
+  }
+  
+  h3{
+    padding-top: 4%;
+    color: black;
+  }
+  
+  h4 {
+    margin-top: 6%;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  h5 {
+    margin-top: 30%;
+    margin-right: 20%;
+  }
+
+  h6 {
+    margin-left: 22%;
+    font-size: 18px;
+    margin-top: 2%;
+  }
+  
+  hr {
+    margin-left: 12%;
+    margin-right: 8%;
+    margin-top: 5%;
+    border: 1px solid rgb(182, 133, 133);
+}
+  
+  .ButtonWrapper {
+    border-radius: 10px;
+    width: auto;
+    padding: 0.2rem 0.8rem;
+    background-color: #006400;
+    border: none;
+    color: white;
+    font-weight: 550;
+    margin-top: 3%;
+  }
+  
+
+  h4 {
+    margin-right: 25%;
+    color: black;
+  }
+
+
+#orderNumber{
+  margin-top: 3%;
+}
+.Email {
+color:rgb(255, 115, 0);
+font-size: 1.2rem;
+margin-top: 5%;
+}
+
+.info{
+margin-top: 6%;
+font-size: 1.2rem;
+}
+
+  .TableContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+  }
+
+
+  td {
+    font-weight: 550;
+    font-size: 13px;
+    color: rgb(102, 98, 98);
+  }
+   
+  .grid-container-second {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+  .containerSecond{
+    border: 1px solid lightgray;
+  }
+
+  .Secondcontent{
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 4%;
+  font-style: italic;
+
+  }
+  .Tittle {
+      background-color: lightgray;
+      margin: 2%;
+      font-style: italic;
+      padding-right: 30%;
+      font-weight: 700;
+      color: rgb(102, 98, 98);
+  }
+
+  .rowContainer {
+    color:rgb(255, 115, 0);
+    font-style: italic;
+  }
+
+#Tabletitle{
+  color:rgb(255, 115, 0);
+  text-align: left;
+  margin-bottom: 3%;
+  font-weight: 700;
+  font-style: italic;
+  }
+
+  .context {
+    margin-right: 15%;
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  .regards {
+    margin-right: 55%;
+    margin-top: 5%;
+  }
+  
+
+  .grid-container-third {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
+.image{
+    width: 100px;
+  }
+  span {
+    margin-right: 40%;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(102, 98, 98);
+  }
+
+  th {
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  a {
+    font-size: 0.8rem;
+  }
+
+  u {
+    text-decoration-color:lightgray;
+  }
+
+  .Footer {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 25vh;
+    background-image: url("Footer.jpg");
+    background-size: 98.5% 30vh;
+    margin-top: 4%;
+    max-width: 1000;
+    
+  }
+  .content1 {
+    font-size: 0.7rem;
+    padding-top: 15%;
+    line-height: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  
