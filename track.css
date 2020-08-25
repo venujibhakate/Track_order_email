@@ -10,25 +10,24 @@
   }
   
   .Wrapper {
-      margin-left: 30%;
-      width: 50%;
+      width: 580px;
       background-repeat: no-repeat;
       height: auto;
-      background-image: url("Background.jpg");
+      background-color: #d6baaea2;
       background-size: 630px 300vh;
       opacity: 8.8;
-      margin-top: 3%;
+      margin: auto;
   }
   
   img {
-    width: 98.5%;
+    width: 100%;
   }
   
   #form {
     max-width: 700px;
     width: 90%;
     margin-top: 4%;
-    margin-left: 4%;
+    margin: auto;
     text-align: center;
     position: relative;
     background: white; 
@@ -250,11 +249,10 @@ font-size: 1.2rem;
   }
 
   .Footer {
-    width: 100%;
+    width: 580px;
     background-repeat: no-repeat;
-    height: 25vh;
     background-image: url("Footer.jpg");
-    background-size: 98.5% 30vh;
+    background-size: 580px 200px;
     margin-top: 4%;
     max-width: 1000;
     
